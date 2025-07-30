@@ -1,0 +1,313 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.header {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header img {
+  height: 80px;
+  width: auto;
+  transition: all 1s;
+  background-color: #bed5e9; 
+}
+
+.header img:hover {
+background-color: #5bff4ccc;
+}
+
+ nav a{
+  background-color: #bed5e9; 
+  transition: all 1s;
+
+}
+
+ nav a:hover{
+background-color: #5bff4ccc;
+
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.sec {
+  margin-bottom: 84px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.left-side .card {
+  width: 250px;
+}
+
+.left-side .card h4 {
+  font-weight: 400;
+  font-size: 17px;
+  color: #010101;
+  font-family: "BPG No9", sans-serif;
+  margin: bottom 9PX; ;
+  gap: 50px;
+}
+
+.left-side .card h5 {
+  font-weight: 400;
+  font-size: 17px;
+  color: #010101;
+  font-family: "Fjalla One", sans-serif;
+  margin: bottom 9PX; ;
+  gap: 50px;
+}
+
+.left-side .card h2 {
+  font-weight: 400;
+  font-size: 28px;
+  color: #010101;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: bottom 37px; ;
+}
+
+.left-side .card p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #636060;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.right-side {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  
+  gap: 20px;                /* სურათებს შორის დაშორება */
+  max-width: 960px;
+  margin: 0 auto;           /* ცენტრში განლაგება მთლიანად */
+}
+
+.right-side .card {
+  width: 300px;           
+  display: flex;
+  justify-content: center;  /* ბლოკში ცენტრი */
+  align-items: center;
+}
+
+.right-side .card img {
+  width: 100%;             
+  height: auto;             /* პროპორცია შენარჩუნდეს */
+  display: block;
+}
+
+.card img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 8px;
+}
+
+.card img:hover {
+  transform: scale(1.30);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.right-side .card h3 {
+  font-weight: 400;
+  font-size: 19px;
+  color: #343232;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 9px;
+}
+
+
+.right-side .card p {
+  font-weight: 400;
+  font-size: 30px;
+  color: #636060;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner {
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.banner p {
+text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+font-family: "BPG No9", sans-serif;
+  text-shadow: 2px 2px 5px rgba(56, 52, 52, 0.3);
+
+}
+
+
+section {
+  padding: 60px 20px;
+
+}
+
+.conteiner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.flex-conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-side .certificate {
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  max-width: 900px;
+  position: relative;
+  
+}
+.left-side .certificate h2 {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #110505;
+  font-family: "BPG No9", sans-serif;
+  font-weight: 400;
+}
+
+body {
+  background-color: #bed5e9; 
+    margin: 0;
+  padding: 0;
+
+}
+
+a {
+  text-decoration: none;
+  color: #110505;
+  font-family: "BPG No9", sans-serif;
+}
+
+
+.hero {
+  background-color: #ffffffcc;
+  padding: 100px 20px;
+  text-align: center;        /* ✅ ცენტრში ტექტსი */
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 50px auto;         /* ✅ ცენტრში ელემენტი */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.hero h1 {
+  font-size: 36px;
+  color: #110505;
+  margin-bottom: 20px;
+  font-family: "BPG No9", sans-serif;
+}
+
+.hero p {
+  font-size: 20px;
+  color: #110505;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  font-family: "BPG No9", sans-serif;
+}
+
+.hero .btn {
+  display: inline-block;
+  background-color: #bed5e9; 
+  color: #110505;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 18px;
+  transition: all 1s;
+}
+
+.hero .btn:hover {
+background-color: #5bff4ccc;
+}
+
+.about {
+  padding: 80px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+}
+
+.about h1 {
+  font-size: 40px;
+  color: #110505;
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: "BPG No9", sans-serif;
+}
+
+.about p {
+  font-size: 20px;
+color: #110505;
+  line-height: 1.8;
+  margin-bottom: 25px;
+  text-align: justify;
+  font-family: "BPG No9", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+@media (max-width: 430px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+  }
+
+  nav a {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 18px;
+  }
+}
+
+
+
+.sec img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 8px;
+}
+
+.sec img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
